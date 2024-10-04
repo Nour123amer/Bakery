@@ -1,0 +1,453 @@
+* {
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0;
+    margin: 0; 
+
+
+}
+
+.land_page {
+    background-image: url("https://i.ibb.co/LSc0LMw/drew-coffman-1872.jpg");
+    
+    background-size: cover;
+     background-position: center;
+    height: 100vh; 
+    color: white;
+    padding-bottom: 90px;
+}
+
+div .nav {
+    display: inline-block; 
+    position: fixed;
+    width: 100%;
+    padding: 25px ;
+   
+}
+
+.nav .options {
+    width: 80%;
+    display: inline-block;
+
+}
+
+.options ul {
+    width: fit-content;
+    /* margin-left: 90%;  */
+    margin-top: 15px;
+    margin-left: auto;
+    list-style: none;
+
+ 
+
+   
+
+
+}
+
+.options ul li {
+    display: inline-block;
+    margin-right: 30px;
+
+}
+
+.options ul li a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.logo {
+
+    display: inline-block;
+    width: 17%;
+    vertical-align: middle;
+
+
+}
+
+
+.land_page .nav .logo img {
+    width: 100%;
+
+}
+
+.welcome {
+    clear: both;
+    width: 500px;
+    padding-top: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+.description {
+    margin-bottom: 40px;
+}
+
+p {
+    font-size: 18px;
+}
+
+p span {
+    font-size: 48px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.btn1 {
+    width: 150px;
+    height: 60px;
+    color: white;
+    background-color: rgb(186, 148, 101);
+    border-radius: 8px;
+    border-color: transparent;
+}
+
+.btn1:hover {
+    background-color: white;
+    color: black;
+}
+
+.btn2 {
+    width: 150px;
+    height: 60px;
+    color: white;
+    background-color: transparent;
+    border-radius: 7px;
+    border-color: white;
+}
+
+.buttons {
+    padding: 60px 0px 120px 0;
+
+}
+
+.shape {
+    width: 23px;
+    height: 45px;
+    border-radius: 12px;
+    border: 2px solid white;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/* Section 2  */
+
+.section2 {
+    margin: 90px 0px;
+    padding: 20x 70px ;
+}
+.container{
+    width: 90%;
+    margin: auto;
+  
+   
+}
+
+.section2 .image {
+   
+    width: 44%;
+     margin-right: 10%; 
+     vertical-align: middle;
+    display: inline-block;
+
+}
+
+
+.bread {
+    width: 100%;
+}
+
+.section2 .who-we-are {
+   
+    width: 40%;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    padding-bottom: 50px;
+}
+
+
+
+.section2 .who-we-are  .content {
+    margin-bottom: 20px;
+}
+
+.section2 .who-we-are .content .icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 1px solid rgb(63, 61, 61);
+    vertical-align: middle;
+}
+
+.section2 .who-we-are .content p {
+    display: inline-block;
+    /* margin-bottom: 20px; */
+}
+
+.first-text {
+    width: 500px;
+    margin-bottom: 40px;
+}
+
+
+.who-we-are p {
+    color: rgb(206, 205, 205);
+}
+
+
+/*  Section 3 */
+
+.our-location {
+
+    background-color: rgb(245, 252, 255);
+    padding: 90px 0;
+}
+
+
+.our-location h2 {
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.our-location p {
+    color: rgb(146, 145, 145);
+    margin-bottom: 40px;
+}
+
+.our-location .description {
+    padding-top: 30px;
+    width: 40%;
+    vertical-align: middle;
+    margin-right: 10%;
+    display: inline-block;
+}
+
+.our-location .description .text {
+    width: 100%;
+
+}
+
+.our-location .image {
+    width: 44%;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.our-location .image img {
+    width: 100%;
+    
+}
+
+/* Section 4 */
+
+.our-baking .address{
+    width: 620px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+
+}
+
+.our-baking .address h3{
+    font-size:18px;
+    margin-bottom: 20px;
+}
+
+.our-baking .address p{
+    font-size: 16px;
+    color: rgb(144, 144, 144);
+}
+.our-baking .container{
+    padding-left: 35px;
+    margin-bottom: 70px;
+}
+
+.our-baking .card{
+  float: left;
+    width: 30%;
+    text-align: center;
+    margin-right: 3%;
+}
+
+.our-baking .card img{
+    width: 380px;
+    vertical-align: middle;
+    margin-bottom: 20px;
+}
+
+.our-baking .card h3{
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.our-baking .card p{
+    width: 350px;
+    font-size:12;
+  padding-left: 40px;
+  color: rgb(144, 144, 144);
+  
+}
+
+
+/*Section 4 */
+.contact-info{
+    padding: 50px;
+    clear: both;
+    background-color:#F8F8F8;
+    margin-left: auto;
+    margin-right: auto;
+    
+} 
+
+.contact-info .info{
+   width: 100%;
+     display: inline-block;
+     vertical-align: middle;
+     width: 42%;
+      margin-right: 7%;
+} 
+
+.contact-info .info h3 {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.contact-info .info p{
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.contact-info .info .details{
+    font-size: 14px;
+    margin-bottom: 30px;
+    color: #484540;
+}
+
+.contact-info .info .content{
+    /* display: inline-block; */
+
+    width: 500px;
+   
+}
+.contact-info .info .content img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color:#8E7754;
+    border: 1px solid transparent;
+    vertical-align: middle;
+}
+.contact-info .info .content p{
+    display: inline-block;
+}
+.contact-info iframe{
+    display: inline-block;
+    width: 48%;
+    height: 500px;
+    vertical-align: middle;
+}
+
+
+/* section 4 */
+
+.about-us{
+    background-image: url("https://i.ibb.co/f8mZFzZ/contact-details-map.png");
+    background-color: #604f31;
+    background-size: cover;
+    background-position: center;
+    font-size: 12px;
+   color:  rgb(206, 205, 205);
+    padding: 70px 0;
+}
+
+.about-us .section-1,
+.about-us .section-2,
+.about-us .section-3,
+.about-us .section-4{
+    width: 20%;
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 4%;
+}
+
+.about-us .section-1 h2,
+.about-us .section-2 h2,
+.about-us .section-3 h2,
+.about-us .section-4 h2{
+    margin-bottom: 15px;
+    color: white;
+    font-size: medium;
+}
+
+.about-us .section-1 p{
+    margin-bottom: 10px;
+}
+
+.about-us .section-2 ul li,
+.about-us .section-3 ul li,
+.about-us .section-4 ul li{
+    margin-bottom: 15px;
+    list-style: none;
+    /* list-style-type: disc; */
+    border-bottom: 1px solid rgb(206, 205, 205);
+    padding-bottom: 2px;
+    
+}
+.about-us .section-2 ul li p,
+.about-us .section-3 ul li p,
+.about-us .section-4 ul li p{
+ 
+    display: inline-block;
+}
+
+.about-us .section-2  img,
+.about-us .section-3  img,
+.about-us .section-4  img{
+    width: 30px;
+    vertical-align: middle;
+    display: inline-block;
+    padding-bottom: 2px;
+}
+/* Footer  */
+.footer{
+    background-color: #353330;
+    clear: both;
+   padding: 70px 0 40px 0;
+  text-align: center;  
+}
+
+.footer img{
+    width: 22%;
+    margin-bottom: 10px;
+    
+}
+
+.footer p{
+    color: rgb(236, 233, 233);
+    font-size: 14px;
+}
+
+.footer .social{
+    margin: 70px auto 25px ;
+}
+
+.footer .icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: #484540;
+    border: 1px solid transparent;
+    vertical-align: middle;
+}
